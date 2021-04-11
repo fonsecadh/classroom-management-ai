@@ -21,9 +21,10 @@ A real example could be:
 The total assignments to be made is calculated by:
 
     /* This should be represented as a mathematical expression in the final documentation */
-    int i, j, assignments;
+    int i, j;
+    int assignments;
     for (i = 0; i < numberOfSubjects(); i++) {
-        for (j = 1; j < numberOfGroupsForSubject(i); j++) {
+        for (j = 0; j < numberOfGroupsForSubject(i); j++) {
             assignments++;
         } 
     }
