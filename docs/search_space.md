@@ -19,6 +19,7 @@ A real example could be:
     (Comp, T1, A-S-02)
 
 The total assignments to be made is calculated by:
+
     /* This should be represented as a mathematical expression in the final documentation */
     int i, j, assignments;
     for (i = 0; i < numberOfSubjects(); i++) {
